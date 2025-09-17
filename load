@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -x
+
+cp ./settings.json ~/.config/zed/settings.json
+cp ./keymap.json ~/.config/zed/keymap.json
+
+echo "Loaded Zed Configurations"

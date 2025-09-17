@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+set -x
+
+git add save
+git add load
+
+git commit -m "Saved Configuration Scripts"
+
+cp ~/.config/zed/settings.json .
+cp ~/.config/zed/keymap.json .
+
+git add settings.json
+git add keymap.json
+
+git commit -m "Saved Zed Configurations"
